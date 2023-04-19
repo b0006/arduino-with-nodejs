@@ -1,0 +1,19 @@
+{
+  "name": "arduino-johnny-five-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reset": "firmata-party uno --debug",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "arduino"
+  ],
+  "author": "Kasikov",
+  "license": "ISC",
+  "dependencies": {
+    "firmata-party": "^2.0.1",
+    "johnny-five": "^2.1.0"
+  }
+}
